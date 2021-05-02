@@ -1,0 +1,47 @@
+Desafio AI Girls
+
+Gerar a média dos alunos -> G3
+Identificar os pontos que mais influenciam nas notas dos alunos.
+
+Insights dos dados
+Variáveis usadas
+Tipo de modelo de ML, como foi treinado e testado
+Métricas utilizadas para avaliar o desempenho do modelo e o desempenho final
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+Tipo de aprendizado -> Supervisonado.
+Tipo de algoritmo -> Regressão Linear, pois as notas são dados contínuos e Classificação quando medir o que poderia influenciar nessas notas.
+
+Regressão linear - Problema de Previsão de Dados
+Quando fazemos uma análise de regressão buscamos entender o padrão de um valor dependendo de outro(s) e assim encontramos uma função que expressa esse padrão.
+
+Regressão linear Simples (RLS) -> Quando existe uma relação de 1 para 1.
+Regressão linear Múltipla (RLM) -> Quando existe uma relação de 1 para muitos.
+
+RLS é basicamente uma função de primeiro grau. O objetivo do meu modelo de ML, é dado um conjunto de dados, entender o padrão dentro deles, que possa ser descrito por uma função de primeiro grau, com uma variável. Quando tratamos de mais de uma variável, estamos olhando para uma RLM.
+
+Insights dos dados
+
+Os estudantes com maiores médias recebem mais lição de casa?
+Faltam muito na escola?
+Os pais possuem conhecimentos suficientes para ajudar na lição de casa dos filhos?
+Os estudantes possuem acesso a Internet?
+No geral as famílias possuem um bom relacionamento?
+
+Variáveis que podemos usar:
+
+1. school (GP ou MS)
+2. sex (F ou M)
+3. age (15 a 22)
+4. famsize -> Tamanho da família (LE3 <= 3 ou GT3 > 3)
+5. pstatus -> Pais casados ou separados (T ou A)
+6. medu -> Escolaridade da mãe (0 nenhuma, 1 ensino fundamental do 1º ao 4º ano, 2 do 5º ao 9º ano, 3 ensino médio e 4 ensino superior)
+7. fedu -> Escolaridade do pai (0 nenhuma, 1 ensino fundamental do 1º ao 4º ano, 2 do 5º ao 9º ano, 3 ensino médio e 4 ensino superior)
+8. studytime (tempo de estudo semanal de 1h a 10h)
+9. activities (lição de casa 'sim' ou 'não')
+10. internet (sim ou não)
+11. famrel (1 a 5, sendo que 1 é muito ruim e 5 é excelente)
+12. absences -> Número de faltas escolares
+
+
