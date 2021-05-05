@@ -1,1 +1,1 @@
-# Desafios de Data Science Compartilhados 
+# Desafios de Data Science Compartilhados 🧐🎲🐍
